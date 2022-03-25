@@ -49,8 +49,10 @@
 	transition: 350ms;
 }
 
-.close-sidebar {
-	font-size: 2rem;
+.btn-close-sidebar {
+	display: flex;
+	font-weight: 500;
+	font-size: 1.7rem;
 	background: none;
 	color: #c5bbbb;
 }
@@ -76,5 +78,6 @@ li {
 }
 
 .nav-text:hover {
-	color: #cababa;
+	color: #e0e0e0;
+	font-weight: 500;
 }

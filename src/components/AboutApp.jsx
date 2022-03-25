@@ -1,10 +1,11 @@
 import React from 'react';
-import NavAbout from './NavAbout/NavAbout';
+import Navbar from './Navbar';
 
 const AboutApp = () => {
 	return (
 		<>
-			<NavAbout />
+			{/* tidak perlu mengisi props, yang penting ada, itu tandanya udah merubah jadi true */}
+			<Navbar isAboutPage />
 			<div
 				style={{
 					textAlign: 'left',

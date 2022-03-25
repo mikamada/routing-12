@@ -1,9 +1,9 @@
 import React from 'react';
-import NavAbout from './NavAbout/NavAbout';
+import Navbar from './Navbar';
 const AboutAuthor = () => {
 	return (
 		<>
-			<NavAbout />
+			<Navbar isAboutPage={true} />
 			<div
 				style={{
 					textAlign: 'left',
