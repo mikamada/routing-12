@@ -1,7 +1,9 @@
 import { Component } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import ListTodo from './ListTodo';
-import Navbar from './Navbar/Navbar';
+// import Navbar from './Navbar/Navbar';
+import Navbar from './Navbar';
+
 import TodoForm from './TodoFrom';
 
 class Home extends Component {
